@@ -10,7 +10,7 @@
     line-height: 42px;
     text-align: center;
     letter-spacing: 0.03em;
-    color: var(--main-color);
+    color: $main-color;
     padding-top: 94px;
     margin-top: 0px;
 
@@ -26,7 +26,7 @@
     height: 120px;
     background-size: contain;
     background-position: center;
-    background-color: #F5F4FA;
+    background-color: $benefitsBG;
     margin-bottom: 30px;
     justify-content: center;
     align-items: center;
@@ -39,14 +39,14 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
     text-align: left;
-    color: var(--main-color);
+    color: $main-color;
     margin-bottom: 10px;
 }
 
 .benefits__description {
     line-height: 24px;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: $gray;
 }
 
 .benefits__item {

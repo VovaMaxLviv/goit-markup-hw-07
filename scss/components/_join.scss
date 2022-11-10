@@ -1,6 +1,6 @@
 .join {
     margin-left: 70px;
-    color: var(--white);
+    color: $white;
     font-style: normal;
     display: inline-flex;
     flex-direction: column;
@@ -15,7 +15,7 @@
     line-height: 16px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--white);
+    color: $white;
 }
 
 .join-social {
@@ -39,12 +39,12 @@
 }
 
 .join-social__image{
-    fill: var(--white);
+    fill: $white;
     height: 20px;
     width: 20px;
 }
 
 .join-social__logo:hover,
 .join-social__logo:focus {
-    background-color: var(--blu);
+    background-color: $blu;
 }
