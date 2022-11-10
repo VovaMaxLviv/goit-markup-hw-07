@@ -55,13 +55,13 @@
     border-radius: $borderRadius;
     border: none;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover,
+    &:focus {
+        background-color: $modal-buttom-blu;
+    }
 }
 
 .subscription__button-submit {
     margin-left: 10px;
 }
 
-.subscription__button:hover,
-.subscription__button:focus {
-    background-color: $modal-buttom-blu;
-}

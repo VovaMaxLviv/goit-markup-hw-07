@@ -36,6 +36,9 @@
     margin: 0px;
     padding: 0px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    $:hover, &:focus{
+        background-color: $blu;
+    }
 }
 
 .join-social__image{
@@ -44,7 +47,3 @@
     width: 20px;
 }
 
-.join-social__logo:hover,
-.join-social__logo:focus {
-    background-color: $blu;
-}

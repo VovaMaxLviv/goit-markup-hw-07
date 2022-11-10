@@ -19,9 +19,7 @@
 .footer-adress__item:nth-last-of-type(1){
     margin-bottom: 0;
 }
-.footer-address:hover, .footer-address:focus {
-    color: $blu;
-}
+
 
 .footer-nav ul,li,a {
     text-decoration: none;
@@ -33,11 +31,13 @@
     text-decoration: none;
     font-style: normal;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover,
+    &:focus {
+        color: $blu;
+    }
 }
 
-.google:hover, .google:focus {
-    color: $blu;
-}
+
 .footer .webstudio {
     color: $white;
 }
@@ -48,7 +48,9 @@
     margin: 0px;
     text-decoration: none;
     font-style: normal;
+    &:focus,
+    &:hover {
+            color: $blu;
+        }
 }
-.footer-adress__info:focus, .footer-adress__info:hover {
-    color: $blu;
-}
+

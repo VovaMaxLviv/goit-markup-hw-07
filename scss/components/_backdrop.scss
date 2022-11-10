@@ -40,13 +40,12 @@
     border: 1px solid rgba(0, 0, 0, 0.1);
     cursor: pointer;
     transition: background-image 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
+    &:focus,
+    &:hover {
+            background-image: url(../images/VectorBlu.svg);
 }
-
-.close:focus,
-.close:hover {
-    background-image: url(../images/VectorBlu.svg);
 }
-
 .modal-form {
     display: block;
     width: 100%;
@@ -58,7 +57,7 @@
     color: $gray;
 }
 
-.modal-form h2 {
+.modal-text {
     font-weight: 700;
     font-size: 20px;
     line-height: 23px;
@@ -71,11 +70,10 @@
     margin-bottom: 12px;
 }
 
-.modal-form a {
+.checkbox__contract{
     color: $blu;
     margin-left: 5px;
     text-decoration: underline;
-
 }
 
 .modal-label {
@@ -115,6 +113,10 @@
     border-radius: $borderRadius;
     padding-left: 42px;
     transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    &:focus{
+        border: 1px solid $darkBlu;
+        border-radius: $borderRadius;
+    }
 }
 
 .modal-icon {
@@ -131,12 +133,6 @@
     border-radius: $borderRadius;
 }
 
-.modal-input:focus,
-.modal__textarea:focus {
-    border: 1px solid $darkBlu;
-    border-radius: $borderRadius;
-
-}
 
 .modal-input:focus~.modal-icon {
     fill: $darkBlu;
@@ -198,13 +194,12 @@
     margin: auto;
     margin-top: 30px;
     transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.modal-form-button:hover,
-.modal-form-button:focus {
+    &:hover,
+    &:focus {
     background: $modal-buttom-blu;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-}
+}}
 
 .modal__textarea {
     display: block;
@@ -221,6 +216,10 @@
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: $borderRadius;
     transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    &:focus {
+            border: 1px solid $darkBlu;
+            border-radius: $borderRadius;
+        }
 }
 
 .modal__textarea::placeholder {
