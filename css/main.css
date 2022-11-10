@@ -484,7 +484,7 @@ ul {
   margin-top: 0px;
 }
 
-.text {
+.benefits__nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -494,7 +494,7 @@ ul {
   text-align: left;
 }
 
-.mum-icon {
+.benefits__image {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -511,7 +511,7 @@ ul {
           align-items: center;
 }
 
-.mum h3 {
+.benefits__meta {
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
@@ -522,13 +522,13 @@ ul {
   margin-bottom: 10px;
 }
 
-.mum p {
+.benefits__description {
   line-height: 24px;
   letter-spacing: 0.03em;
   color: #757575;
 }
 
-.mum {
+.benefits__item {
   width: 270px;
 }
 
@@ -536,7 +536,7 @@ ul {
   background-color: #f5f4fa;
 }
 
-.comand-one {
+.comand-gallery__item {
   width: 270px;
   background: var(--white);
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -547,7 +547,7 @@ ul {
   display: block;
 }
 
-.comand-all {
+.comand-gallery {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -556,11 +556,11 @@ ul {
   display: flex;
 }
 
-.comands {
+.comand-box {
   padding: 30px;
 }
 
-.comand h2 {
+.comand-name {
   font-weight: 700;
   font-size: 36px;
   line-height: 42px;
@@ -568,7 +568,7 @@ ul {
   padding-bottom: 50px;
 }
 
-.comand p {
+.comand-box__direction {
   font-size: 16px;
   line-height: 19px;
   text-align: center;
@@ -576,7 +576,7 @@ ul {
   color: #757575;
 }
 
-.comand h3 {
+.comand-box__name {
   color: var(--main-color);
   font-weight: 500;
   font-size: 16px;
@@ -586,7 +586,7 @@ ul {
   margin-bottom: 10px;
 }
 
-.social-comand {
+.comand-box__social {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -596,11 +596,11 @@ ul {
   margin-top: 16px;
 }
 
-.social-comand li {
+.comand-box__item {
   margin-right: 10px;
 }
 
-.social-comand a {
+.comand-box__link {
   height: 44px;
   width: 44px;
   display: -webkit-box;
@@ -622,28 +622,13 @@ ul {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social-comand a:hover,
-.social-comand a:focus {
+.comand-box__link:hover,
+.comand-box__link:focus {
   background-color: var(--blu);
   fill: var(--white);
 }
 
-.instagram-comand {
-  height: 20px;
-  width: 20px;
-}
-
-.twitter-comand {
-  height: 20px;
-  width: 20px;
-}
-
-.facebook-comand {
-  height: 20px;
-  width: 20px;
-}
-
-.linkedin-comand {
+.comand-box__icon {
   height: 20px;
   width: 20px;
 }
@@ -656,7 +641,7 @@ ul {
   padding-top: 0px;
 }
 
-.work h2 {
+.work-text {
   font-weight: 700;
   font-size: 36px;
   line-height: 42px;
@@ -675,11 +660,11 @@ ul {
   margin-top: 35px;
 }
 
-.work-page li {
+.work-page__item {
   position: relative;
 }
 
-.working {
+.work-page__link {
   position: absolute;
   display: -webkit-box;
   display: -ms-flexbox;

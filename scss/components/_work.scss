@@ -6,7 +6,7 @@
     padding-top: 0px;
 }
 
-.work h2 {
+.work-text {
     font-weight: 700;
     font-size: 36px;
     line-height: 42px;
@@ -21,11 +21,11 @@
     margin-top: 35px;
 }
 
-.work-page li {
+.work-page__item{
     position: relative;
 }
 
-.working {
+.work-page__link{
     position: absolute;
     display: flex;
     align-items: center;
