@@ -1,0 +1,44 @@
+.section .work {
+    padding-top: 0px;
+}
+
+.work {
+    padding-top: 0px;
+}
+
+.work h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--main-color);
+}
+
+.work-page {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+}
+
+.work-page li {
+    position: relative;
+}
+
+.working {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 70px;
+    bottom: 0;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: rgba(47, 48, 58, 0.8);
+}

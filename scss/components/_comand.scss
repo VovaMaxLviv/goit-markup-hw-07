@@ -1,0 +1,100 @@
+.comand {
+    background-color: #f5f4fa;
+}
+
+.comand-one {
+    width: 270px;
+    background: var(--white);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+    font-size: 16px;
+    line-height: 19px;
+    display: block;
+}
+
+.comand-all {
+    justify-content: space-between;
+    display: flex;
+}
+
+.comands {
+    padding: 30px;
+}
+
+.comand h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    margin: 0px;
+    padding-bottom: 50px;
+}
+
+.comand p {
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+.comand h3 {
+    color: var(--main-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-bottom: 10px;
+}
+
+.social-comand {
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+
+}
+
+.social-comand li {
+    margin-right: 10px;
+}
+
+.social-comand a {
+    height: 44px;
+    width: 44px;
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 44px;
+    background: rgba(255, 255, 255, 0.1);
+    margin: 0px;
+    padding: 0px;
+    fill: #AFB1B8;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.social-comand a:hover,
+.social-comand a:focus {
+    background-color: var(--blu);
+    fill: var(--white);
+}
+
+.instagram-comand {
+    height: 20px;
+    width: 20px;
+}
+
+.twitter-comand {
+    height: 20px;
+    width: 20px;
+}
+
+.facebook-comand {
+    height: 20px;
+    width: 20px;
+}
+
+.linkedin-comand {
+    height: 20px;
+    width: 20px;
+}

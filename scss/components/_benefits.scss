@@ -1,0 +1,54 @@
+.benefits {
+    background-color: var(--white);
+    display: block;
+}
+
+.benefits h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--main-color);
+    padding-top: 94px;
+    margin-top: 0px;
+
+}
+.text {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+}
+
+.mum-icon {
+    display: flex;
+    height: 120px;
+    background-size: contain;
+    background-position: center;
+    background-color: #F5F4FA;
+    margin-bottom: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.mum h3 {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-align: left;
+    color: var(--main-color);
+    margin-bottom: 10px;
+}
+
+.mum p {
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+.mum {
+    width: 270px;
+}
