@@ -863,7 +863,6 @@ li, a {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .project__text-container {
-  width: 320px;
   margin: 24px 20px;
 }
 .project__title {
