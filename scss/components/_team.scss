@@ -1,22 +1,31 @@
-.comand {
+.team {
     background-color: $benefitsBG;
+    padding: 94px 0px;
 }
-
-.comand-gallery {
+.team-name {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    margin: 0px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+.team-gallery {
     justify-content: space-between;
     display: flex;
     &__item {
-            width: 270px;
-            background: $white;
-            box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-            border-radius: 0px 0px 4px 4px;
-            font-size: 16px;
-            line-height: 19px;
-            display: block;
-        }
+        width: 270px;
+        background: $white;
+        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+        border-radius: 0px 0px 4px 4px;
+        font-size: 16px;
+        line-height: 19px;
+        display: block;
+    }
 }
 
-.comand-box {
+.team-box {
     padding: 30px;
     &__direction{
             font-size: 16px;
@@ -67,12 +76,4 @@
         height: 20px;
         width: 20px;
     }
-}
-
-.comand-name {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 42px;
-    margin: 0px;
-    padding-bottom: 50px;
 }
