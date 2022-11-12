@@ -44,54 +44,6 @@
             <div class="container">
                 <h1 class="bisnes__title">Ефективні рішення для вашого бізнесу</h1>
                 <button type="submit" class="bisnes__button" data-modal-open>Замовити послугу</button>
-                <div class="backdrop is-hidden" data-modal>
-                    <div class="modal">
-                        <form class="modal-form" autocomplete="on">
-                            <h2 class="modal-text">Залиште свої дані, ми вам передзвоним</h2>
-                                <label for="name" class="modal-label">Ім'я
-                                    <span class="modal-input-wrapper">
-                                    <input type="text" class="modal-input" name="name" id="name" autofocus />
-                                    <svg width="12" height="12" class="modal-icon">
-                                        <use href="./images/icomoon1/symbol-defs.svg#icon-man-1"></use>
-                                    </svg>
-                                    </span>
-                                </label>
-                                <label for="tel" class="modal-label">Телефон
-                                    <span class="modal-input-wrapper">
-                                    <input type="tel" class="modal-input" name="tel" id="tel" />
-                                    <svg width="13" height="13" class="modal-icon">
-                                        <use href="./images/icomoon1/symbol-defs.svg#icon-tel-1"></use>
-                                    </svg>
-                                    </span>
-                                </label>
-                                <label for="mail" class="modal-label">Пошта
-                                    <span class="modal-input-wrapper">
-                                    <input type="email" class="modal-input" name="mail" id="mail" />
-                                    <svg width="15" height="12" class="modal-icon">
-                                        <use href="./images/icomoon1/symbol-defs.svg#icon-mail-new-1"></use>
-                                    </svg>
-                                    </span>
-                                </label>
-                                <label for="comment" class="modal-label">Коментар
-                                    <textarea class="modal__textarea" name="comment" id="comment" placeholder="Введіть текст"></textarea>
-                                </label>
-                                <label for="policy" class="checkbox">
-                                    <span class="modal-input-wrapper-checkbox"></span>
-                                    <input type="checkbox" class="checkbox-input" name="policy" id="policy">
-                                    <div class="checkbox-custom-box">
-                                        <svg width="11" height="8">
-                                            <use href="./images/icomoon1/symbol-defs.svg#icon-V-1"></use>
-                                        </svg>
-                                    </div>
-                                    Погоджуюся з розсилкою та приймаю   
-                                    <span><a href="#" class="checkbox__contract">Умови
-                                            договору</a></span>
-                                </label>
-                                <button type="submit" class="modal-form-button">Відправити</button>
-                        </form>
-                        <button class="close" data-modal-close></button>
-                    </div>
-                </div>
             </div>
         </section>
         <section  class="benefits">
@@ -287,6 +239,54 @@
             </div>
         </div>
     </footer>
+    <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+            <form class="modal-form" autocomplete="on">
+                <h2 class="modal-text">Залиште свої дані, ми вам передзвоним</h2>
+                <label for="name" class="modal-label">Ім'я
+                    <span class="modal-input-wrapper">
+                        <input type="text" class="modal-input" name="name" id="name" autofocus />
+                        <svg width="12" height="12" class="modal-icon">
+                            <use href="./images/icomoon1/symbol-defs.svg#icon-man-1"></use>
+                        </svg>
+                    </span>
+                </label>
+                <label for="tel" class="modal-label">Телефон
+                    <span class="modal-input-wrapper">
+                        <input type="tel" class="modal-input" name="tel" id="tel" />
+                        <svg width="13" height="13" class="modal-icon">
+                            <use href="./images/icomoon1/symbol-defs.svg#icon-tel-1"></use>
+                        </svg>
+                    </span>
+                </label>
+                <label for="mail" class="modal-label">Пошта
+                    <span class="modal-input-wrapper">
+                        <input type="email" class="modal-input" name="mail" id="mail" />
+                        <svg width="15" height="12" class="modal-icon">
+                            <use href="./images/icomoon1/symbol-defs.svg#icon-mail-new-1"></use>
+                        </svg>
+                    </span>
+                </label>
+                <label for="comment" class="modal-label">Коментар
+                    <textarea class="modal__textarea" name="comment" id="comment" placeholder="Введіть текст"></textarea>
+                </label>
+                <label for="policy" class="checkbox">
+                    <span class="modal-input-wrapper-checkbox"></span>
+                    <input type="checkbox" class="checkbox-input" name="policy" id="policy">
+                    <div class="checkbox-custom-box">
+                        <svg width="11" height="8">
+                            <use href="./images/icomoon1/symbol-defs.svg#icon-V-1"></use>
+                        </svg>
+                    </div>
+                    Погоджуюся з розсилкою та приймаю
+                    <span><a href="#" class="checkbox__contract">Умови
+                            договору</a></span>
+                </label>
+                <button type="submit" class="modal-form-button">Відправити</button>
+            </form>
+            <button class="close" data-modal-close></button>
+        </div>
+    </div>
     <script src="./js/modal.js"></script>
 </body>
 </html>
