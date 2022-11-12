@@ -1,6 +1,5 @@
 .footer{
     background-color: $footerBG;
-    color: $white;
     text-align: left;
     display: list-item;
 }
@@ -9,8 +8,7 @@
     display: flex;
     align-items: baseline;
 }
-.footer-adress {
-    margin-top: 20px;
+.footer-contacts {
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     &__item {
             margin-bottom: 9px;
@@ -18,11 +16,6 @@
     &__item:nth-last-of-type(1) {
             margin-bottom: 0;
     }
-    &__nav ul,
-    li,
-    a {
-            text-decoration: none;
-        }
     &__google {
             line-height: 24px;
             letter-spacing: 0.03em;
@@ -48,11 +41,9 @@
                 color: $blu;
     }
 }
-    
 }
-
-.footer .webstudio {
-    color: $white;
+.footer .logo{
+    margin-bottom: 20px;
 }
 
 

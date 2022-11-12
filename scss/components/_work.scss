@@ -1,26 +1,16 @@
 .work {
     padding-top: 0px;
-    padding: 94px 0px;
-    &__title {
-            font-weight: 700;
-            font-size: 36px;
-            line-height: 42px;
-            text-align: center;
-            letter-spacing: 0.03em;
-            color: $main-color;
-        }
-    
+    padding-bottom: 94px;
     &__list {
             display: flex;
             justify-content: space-between;
-            margin-top: 35px;
         }
     &__item {
                 position: relative;
         }
-    &__image{
+    // &__image{
 
-        }
+    //     }
     &__box {
                 position: absolute;
                 display: flex;

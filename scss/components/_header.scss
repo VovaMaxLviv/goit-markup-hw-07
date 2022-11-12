@@ -1,5 +1,28 @@
 .header {
     border-bottom: 1px solid $headerBorderBT;
+    &__list {
+            display: flex;
+            justify-content: space-between;
+            gap: 50px;
+    
+        }
+    
+        &__list :hover {
+            color: $blu;
+        }
+    
+        &__item {
+            text-decoration: none;
+        }
+        &__menu {
+            display: flex;
+            align-items: center;
+        }
+        &__contact {
+            display: flex;
+            justify-content: space-between;
+            gap: 50px;
+        }
 }
 
 .header .container {
@@ -8,25 +31,7 @@
     align-items: center;
 }
 
-.header-left-site {
-    display: flex;
-    align-items: center;
-}
 
-
-.headertext {
-    display: flex;
-    justify-content: space-between;
-    gap: 50px;
-}
-
-.headertext :hover {
-    color: $blu;
-}
-
-.web {
-    color: $blu;
-}
 
 .black {
     position: relative;
@@ -42,6 +47,7 @@
     &:focus, &:hover{
     color: $blu;
     fill: $blu;
+    
     }
 }
 
@@ -63,11 +69,7 @@
     }
 }
 
-.header-right-site {
-    display: flex;
-    justify-content: space-between;
-    gap: 50px;
-}
+
 
 .icon-header {
     margin-right: 10px;
@@ -86,4 +88,6 @@
             bottom: -1px;
         }
 }
-
+.header .logo{
+    margin: 24px 93px 24px 0;
+}
