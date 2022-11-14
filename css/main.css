@@ -205,6 +205,58 @@ li, a {
   -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.modal .checkbox {
+  width: 400px;
+  height: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 20px 0 0 12px;
+  padding: 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 24px;
+}
+.modal .checkbox__contract {
+  color: #2196f3;
+  margin-left: 5px;
+  text-decoration: underline;
+}
+.modal .checkbox .modal-input-wrapper-checkbox {
+  width: 0;
+}
+.modal .checkbox .checkbox-input {
+  -moz-appearance: none;
+       appearance: none;
+  -webkit-appearance: none;
+  position: absolute;
+}
+.modal .checkbox .checkbox-custom-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 16px;
+  height: 15px;
+  margin-right: 8px;
+  border: 1.5px solid #212121;
+  border-radius: 2px;
+  cursor: pointer;
+  -webkit-transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.modal .checkbox .checkbox-input:checked + .checkbox-custom-box {
+  background: #2196f3;
+  border-color: transparent;
+}
 .modal__form-button {
   width: 200px;
   height: 50px;
@@ -258,59 +310,6 @@ li, a {
 }
 .close:focus, .close:hover {
   background-image: url(../images/VectorBlu.svg);
-}
-
-.checkbox {
-  width: 400px;
-  height: 24px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin: 20px 0 0 12px;
-  padding: 0;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  cursor: pointer;
-  font-size: 14px;
-  line-height: 24px;
-}
-.checkbox__contract {
-  color: #2196f3;
-  margin-left: 5px;
-  text-decoration: underline;
-}
-.checkbox .modal-input-wrapper-checkbox {
-  width: 0;
-}
-.checkbox .checkbox-input {
-  -moz-appearance: none;
-       appearance: none;
-  -webkit-appearance: none;
-  position: absolute;
-}
-.checkbox .checkbox-custom-box {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  width: 16px;
-  height: 15px;
-  margin-right: 8px;
-  border: 1.5px solid #212121;
-  border-radius: 2px;
-  cursor: pointer;
-  -webkit-transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.checkbox .checkbox-input:checked + .checkbox-custom-box {
-  background: #2196f3;
-  border-color: transparent;
 }
 
 .benefits {
