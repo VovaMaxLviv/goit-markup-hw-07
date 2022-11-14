@@ -7,43 +7,5 @@
     text-transform: uppercase;
     width: 206px;
     height: 80px;
-    &__name {
-            font-weight: 700;
-            font-size: 14px;
-            line-height: 16px;
-            letter-spacing: 0.03em;
-            text-transform: uppercase;
-            color: $white;
-        }
-        .join-social {
-            display: flex;
-            justify-content: space-between;
-            margin-top: 20px;
-            &__logo {
-            height: 44px;
-            width: 44px;
-            display: flex;
-            align-content: center;
-            justify-content: space-around;
-            align-items: center;
-            border-radius: 50%;
-            background: rgba(255, 255, 255, 0.1);
-            margin: 0px;
-            padding: 0px;
-            transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-            &:hover,
-            &:focus {
-                background-color: $blu;
-            }
-        }
-        &__image {
-            fill: $white;
-            height: 20px;
-            width: 20px;
-        }
-    }
+ 
 }
-
-
-

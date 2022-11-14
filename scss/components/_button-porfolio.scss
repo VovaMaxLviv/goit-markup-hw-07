@@ -1,13 +1,15 @@
 .direction {
     padding: 94px 0px;
-    .direction-button {
+    .filter{
             display: flex;
             justify-content: center;
             flex-wrap: wrap;
             text-align: center;
             align-items: center;
+            margin-bottom: 50px;
     
             &__button {
+                padding: 6px 22px;
                 font-weight: 500;
                 font-size: 16px;
                 line-height: 26px;
@@ -26,31 +28,6 @@
                     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
                     border-radius: $borderRadius;
                 }
-            }
-    
-            .button1 {
-                width: 73px;
-                padding: 6px 22px;
-            }
-    
-            .button2 {
-                width: 125px;
-                padding: 6px 22px;
-            }
-    
-            .button3 {
-                width: 112px;
-                padding: 6px 22px;
-            }
-    
-            .button4 {
-                width: 103px;
-                padding: 6px 22px;
-            }
-    
-            .button5 {
-                width: 130px;
-                padding: 6px 22px;
             }
         }
 }
